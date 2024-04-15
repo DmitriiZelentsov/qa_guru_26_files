@@ -1,0 +1,17 @@
+{
+  "uuid": "bb2f3c62-331e-42ee-a931-d25a5ee0946f",
+  "statusCode": 0,
+  "cardHolder": "John Master",
+  "cards": [
+    {
+      "type": "visa",
+      "number": "***1111",
+      "expirationsDate": "10/17"
+    },
+    {
+      "type": "masterCard",
+      "number": "***2222",
+      "expirationsDate": "12/22"
+    }
+  ]
+}
