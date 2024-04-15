@@ -2,7 +2,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import model.Matrix;
 import org.junit.jupiter.api.Test;
 
-
 import java.io.InputStreamReader;
 import java.io.Reader;
 
@@ -12,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertAll;
 public class JsonParsingTest {
     private ClassLoader cl = FilesParsingTest.class.getClassLoader();
     private static final ObjectMapper objectMapper = new ObjectMapper();
+
     @Test
     void checkJsonParsingTest() throws Exception{
         try (Reader reader = new InputStreamReader(
